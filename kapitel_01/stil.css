@@ -2,3 +2,32 @@ body {
   background-color: yellow;
   color: blue;
 }
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+section {
+  text-shadow: black;
+}
+*/
+
+.bg1 {
+  background-image: "img/candy01.jpg";
+}
+
+.bg1 {
+  background-image: "img/candy02.jpg";
+}
+img{
+  max-width: 30%;
+  height: inherit;
+}
+
+p {
+  display:inline;
+}
