@@ -1,33 +1,144 @@
 body {
   background-color: yellow;
   color: blue;
+  font-family: monospace;  
+  font-weight: bold;
 }
 
 main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
+  color: rgb(0, 0, 0);
 }
 
-/*
-section {
-  text-shadow: black;
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
+  color: rgb(75, 0, 214);
 }
-*/
+
 
 .bg1 {
-  background-image: "img/candy01.jpg";
+  background-image: url('img/candy01.jpg');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
-.bg1 {
-  background-image: "img/candy02.jpg";
-}
-img{
-  max-width: 30%;
-  height: inherit;
+.bg2 {
+  background-image: url('img/candy02.jpg');
+  background-color: #000000; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
-p {
-  display:inline;
+
+.bg3 {
+  background-image: url('img/candy03.jpg');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.bg4 {
+  background-image: url('img/candy04.jpg');
+  background-color: #000000; /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+p{
+font-size: 15px;
+text-transform: capitalize;
+}
+
+nav {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Butterfly Kids', cursive;
+  margin-left: 0;
+  text-align: left;
+  padding: 35px;
+  opacity: 0.2;
+}  
+
+h2{
+  font-size: 20px;
+}
+
+footer{
+  text-align: center;
+  margin: 30px;
+  color: white;
+}
+
+
+.stroked01 {
+  background-image: url('img/painted01.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 35px;
+}
+
+.stroked02 {
+  background-image: url('img/painted02.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 35px;
+}
+
+.stroked03 {
+  background-image: url('img/Stroke01.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 35px;
+}
+
+.stroked04 {
+  background-image: url('img/Stroke02.png');
+  background-position: left; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  padding: 35px;
+}
+
+.headlineStroked02{
+  /*background-image: url('img/Stroke01.png');
+  background-position: left; 
+  background-repeat: no-repeat; 
+  background-size: contain;*/
+margin-bottom: auto;
+margin-top: auto;
 }
